@@ -28,9 +28,9 @@ public class Heads_or_Tail {
 		System.out.println("Heads: " + h + ", Tails: " + t);
 
 		if(h > t)
-			System.out.println("you won!");
+			System.out.println(name + " won!");
 		
 		else
-			System.out.println("you lost");
+			System.out.println(name + " lost");
 	}
 }
